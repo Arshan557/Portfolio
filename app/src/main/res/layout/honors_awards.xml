@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bg"
+    tools:context=".HonorsAwards">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_below="@+id/app_bar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apex Award"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="July 2016"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Got Apex award by Accenture for giving better contribution towards my project"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Award by BREAD society"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="August 2008"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Got award from BREAD society for the best rank CEEP exam. "/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sponsership by District collector for Intermediate education"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="May 2008"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Selected for free seat for intermediate course under the scheme of “Kadapa Rathnalu” which was introduced by District collector of Kadapa in 2008"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Award in talent test for 2 times"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#009688"
+                        android:textSize="10dp"
+                        android:id="@+id/apneaddaDate"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="Oct 2003"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Received awards for two times by district collector and Mandal president in talent tests"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

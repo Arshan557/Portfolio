@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bg"
+    tools:context=".Projects">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_below="@+id/app_bar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orange ATG"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="January 2016 - Present"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Working as a backend developer to develop highly scalable website for the core business of Orange telecommunications"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wemosys"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="May 2015 - Present"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="It's a startup started with friends where we'll develop websites and mobile apps"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Few Android apps"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="Present"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Developed few Android apps related to image processing, SMS and so on to explore myself"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apneadda"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:text="www.apneadaa.com"
+                    android:gravity="right"
+                    android:layout_marginLeft="182dp"
+                    android:layout_marginStart="182dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="right" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:id="@+id/apneaddaDate"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="May 2014"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Worked on a live project which is a site named www.apneadda.com as Education is our main moto"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Key Aggregiate Cryptosystem"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="March 2015"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Implemented Key Aggregiate Cryptosystem for scalable data sharing as an academic project.
+The main intention of this cryptosystem is decrypting all encrypted files using one aggregiate key"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/colorDivider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offline Tourism site"
+                    android:textSize="30dp"
+                    android:textColor="@color/bg_screen2"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#009688"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:text="Febraury 2011"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorLabelFab"
+                    android:text="Constructed an offline tourism site as an Academic project in Diploma"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

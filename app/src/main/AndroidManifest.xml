@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.portfolio.arshan.portfolio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- Permission: Writing to SDCard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.portfolio.arshan.portfolio.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.portfolio.arshan.portfolio.MainActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Experience"
+            android:label="@string/experience">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portfolio.arshan.portfolio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Education"
+            android:label="@string/education">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portfolio.arshan.portfolio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BBCNews"
+            android:label="@string/languages">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portfolio.arshan.portfolio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Projects"
+            android:label="@string/projects">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portfolio.arshan.portfolio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SkillsTools"
+            android:label="@string/skills"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portfolio.arshan.portfolio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HonorsAwards"
+            android:label="@string/honorsAwards">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portfolio.arshan.portfolio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreen">
+        </activity>
+
+    </application>
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true" android:largeScreens="true"
+        android:anyDensity="true">
+    </supports-screens>
+
+
+</manifest>

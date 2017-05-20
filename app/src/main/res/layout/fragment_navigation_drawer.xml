@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTextIcons"
+    tools:context="com.portfolio.arshan.portfolio.NavigationDrawerFragment">
+
+    <LinearLayout
+        android:id="@+id/containerDrawerImage"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:paddingBottom="1dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bar_bg">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingRight="3dp"
+            android:src="@drawable/ic_launcher" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Sudarshan Vallepu"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:textColor="#303F9F"/>
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Java developer at Accenture"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#3F51B5"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:src="@color/colorDivider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="8106886588"
+                android:paddingRight="3dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#303F9F"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="vsudarshan57@gmail.com"
+                android:paddingRight="3dp"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#303F9F"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/containerDrawerImage"/>
+
+</RelativeLayout>

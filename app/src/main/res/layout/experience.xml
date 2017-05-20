@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bg"
+    tools:context=".Experience">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/app_bar"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/accenture"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textStyle="bold|italic"
+            android:text="Accenture"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:textSize="25dp"
+            android:textColor="#795548"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textColor="#8D6E63"
+            android:text="Java Developer"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textColor="#8D6E63"
+            android:text="Location - Bangalore"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textColor="#8D6E63"
+            android:text="Project - Orange ATG"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textColor="#8D6E63"
+            android:text="Honor/Awards - Apex award"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#43A047"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="Oct'15 - Present"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
